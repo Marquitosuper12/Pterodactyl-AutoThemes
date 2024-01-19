@@ -6,7 +6,7 @@ set -e
 #
 #         Pterodactyl-AutoThemes Installation
 #
-#         Created and maintained by Ferks-FK
+#         Created and maintained by 
 #
 #            Protected by MIT License
 #
@@ -16,7 +16,7 @@ set -e
 get_release() {
 curl --silent \
   -H "Accept: application/vnd.github.v3+json" \
-  https://api.github.com/repos/Ferks-FK/Pterodactyl-AutoThemes/releases/latest |
+  https://api.github.com/repos/Marquitosuper12/Pterodactyl-AutoThemes/releases/latest |
   grep '"tag_name":' |
   sed -E 's/.*"([^"]+)".*/\1/'
 }
@@ -80,7 +80,7 @@ echo
 print_brake 70
 echo "* Pterodactyl-AutoThemes Script @ $SCRIPT_VERSION"
 echo
-echo "* Copyright (C) 2021 - $(date +%Y), Ferks-FK."
+echo "* Copyright (C) 2021 - $(date +%Y), Marquitosuper12."
 echo "* https://github.com/Marquitosuper12/Pterodactyl-AutoThemes"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
