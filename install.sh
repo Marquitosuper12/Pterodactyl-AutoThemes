@@ -91,8 +91,8 @@ Backup() {
 bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/backup.sh)
 }
 
-temas() {
-bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/temas.zip/build.sh)
+3. Glasmorphism Theme() {
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/3. Glasmorphism Theme.zip/build.sh)
 }
 
 Enola() {
