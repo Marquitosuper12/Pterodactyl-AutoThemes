@@ -81,17 +81,17 @@ print_brake 70
 echo "* Pterodactyl-AutoThemes Script @ $SCRIPT_VERSION"
 echo
 echo "* Copyright (C) 2021 - $(date +%Y), Ferks-FK."
-echo "* https://github.com/Ferks-FK/Pterodactyl-AutoThemes"
+echo "* https://github.com/Marquitosuper12/Pterodactyl-AutoThemes"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
 print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/backup.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/backup.sh)
 }
 
-Glasmorphism) {
+3. Glasmorphism Theme() {
 bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/3. Glasmorphism Theme.zip/build.sh)
 }
 
@@ -100,30 +100,30 @@ bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-Aut
 }
 
 Twilight() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Twilight/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Twilight/build.sh)
 }
 
 ZingTheme() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/ZingTheme/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/ZingTheme/build.sh)
 }
 
 FlancoTheme() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/FlancoTheme/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/FlancoTheme/build.sh)
 }
 
 BackgroundVideo() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/BackgroundVideo/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/BackgroundVideo/build.sh)
 }
 
 AnimatedGraphics() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/AnimatedGraphics/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/AnimatedGraphics/build.sh)
 }
 
 
 while [ "$done" == false ]; do
   options=(
     "Restore Panel Backup (Restore your panel if you have problems or want to remove themes)"
-    "Install Dracula (Only 1.7.0 and 1.8.1)"
+    "Install 3. Glasmorphism Theme (Only 1.7.0 and 1.8.1)"
     "Install Enola (Only 1.7.0 and 1.8.1)"
     "Install Twilight (Only 1.7.0 and 1.8.1)"
     "Install Zing Theme (Only 1.6.6 and 1.7.0)"
@@ -137,7 +137,7 @@ while [ "$done" == false ]; do
   
   actions=(
     "Backup"
-    "Dracula"
+    "3. Glasmorphism Theme"
     "Enola"
     "Twilight"
     "ZingTheme"
