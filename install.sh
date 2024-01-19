@@ -91,12 +91,12 @@ Backup() {
 bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/backup.sh)
 }
 
-Dracula() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/temas.zip/build.sh)
+temas() {
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/temas.zip/build.sh)
 }
 
 Enola() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Enola/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Marquitosuper12/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Enola/build.sh)
 }
 
 Twilight() {
